@@ -1,8 +1,8 @@
 // Selecciona todos los botones con la clase 'btn'
-constante botones = documento.consultaSelectorAll('
+constante botones = documento.consultaSelectorAll('.btn');
 
 botones.para cada uno(boton =>{
-  boton.añadirListener de eventos('hacer clic',()
+  boton.añadirListener de eventos('hacer clic',() => {
     boton.lista de clases.agregar('hizo clic');
   
   establecer tiempo de espera (()=> {
