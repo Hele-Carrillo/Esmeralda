@@ -68,7 +68,6 @@ p {
     font-size: 18px;
 }
 
-/* Responsive para móviles */
 @media (max-width: 768px) {
     .menu-icon {
         display: block;
